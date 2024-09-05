@@ -19,14 +19,14 @@ Data Analyst and Programmer Intern @ Senior Grooming (_August 2023_)
 
 Utilized regression analysis, multivariate regression, statistical, and probability analysis on 2020 US National Election Survey data to assess voter sentiment towards the Democratic Party. Applied sampling theory, cleaned data, and created concise visualizations to summarize findings.
 
-!(/assets/Difference_in_Mean.png)
+![Regression Analysis](/assets/Difference_in_Mean.png)
 
 ### R-Shiny
 [Publication]
 
 Developed a Shiny application with Leaflet widgets for Philadelphia schools and LEA datasets, focusing on attendance-based rankings. Utilized text analysis and integrated SQL within R for advanced geospatial analysis.
 
-!(/assets/Regression_Table.png)
+![R Shiny](/assets/Regression_Table.png)
 
 
 
