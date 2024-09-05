@@ -33,8 +33,7 @@ Developed a Shiny application with Leaflet widgets for Philadelphia schools and 
 - Skills: R, Shiny, data visualization, UI/UX.
 
 ### SQL Data Project
-[Publication](file:///Users/naoko/Dropbox/DATA4010/week7/Homework/SQL-hw-401.html)
-
+[Publication]
 
 
 - Skills: SQL, database management, data transformation.
