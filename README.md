@@ -37,7 +37,7 @@ Developed a Shiny application with Leaflet widgets for Philadelphia schools and 
 
 The analysis compares median annual salaries across companies of different sizes, finding that companies with around 1000 employees pay between $250,000 and $260,000, while larger mega-companies offer slightly higher median salaries of $268,000 to $275,000. This highlights a trend of increasing salaries with company size.
 
-![SQL](SQL.png)
+![SQL](/assets/SQL.png)
 
 - Skills: SQL, database management, data transformation.
 
