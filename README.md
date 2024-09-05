@@ -28,13 +28,16 @@ Utilized regression analysis, multivariate regression, statistical, and probabil
 
 Developed a Shiny application with Leaflet widgets for Philadelphia schools and LEA datasets, focusing on attendance-based rankings. Utilized text analysis and integrated SQL within R for advanced geospatial analysis.
 
-![R Shiny](/assets/Regression_Table.png
+![R Shiny](/assets/Regression_Table.png)
 
 - Skills: R, Shiny, data visualization, UI/UX.
 
 ### SQL Data Project
-[Publication]
+[Publication](https://github.com/naokoi0408/SQL/blob/main/SQL/SQL.RStudio.pdf)
 
+The analysis compares median annual salaries across companies of different sizes, finding that companies with around 1000 employees pay between $250,000 and $260,000, while larger mega-companies offer slightly higher median salaries of $268,000 to $275,000. This highlights a trend of increasing salaries with company size.
+
+![SQL](SQL.png)
 
 - Skills: SQL, database management, data transformation.
 
