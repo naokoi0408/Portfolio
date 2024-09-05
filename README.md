@@ -14,7 +14,7 @@ Data Analyst and Programmer Intern @ Senior Grooming (_August 2023_)
 - Developed custom email templates in SendGrid, improving user experience and ensuring brand consistency.
   
 ## Project
-### Regression Analysis in Base R     
+### 1. Regression Analysis in Base R     
 [Publication](https://github.com/naokoi0408/Final.Data310/blob/main/Regression%20Analysis%20/Regression_Analysis%20.pdf)
 
 Utilized regression analysis, multivariate regression, statistical, and probability analysis on 2020 US National Election Survey data to assess voter sentiment towards the Democratic Party. Applied sampling theory, cleaned data, and created concise visualizations to summarize findings.
@@ -23,7 +23,7 @@ Utilized regression analysis, multivariate regression, statistical, and probabil
 
 - Skills: R, statistics, data visualization.
 
-### R-Shiny
+### 2. R-Shiny
 [Publication](https://github.com/naokoi0408/School_Rank_App/blob/main/School_Rank_App/School_Rank_App_Description.pdf)
 
 Developed a Shiny application with Leaflet widgets for Philadelphia schools and LEA datasets, focusing on attendance-based rankings. Utilized text analysis and integrated SQL within R for advanced geospatial analysis.
@@ -32,7 +32,7 @@ Developed a Shiny application with Leaflet widgets for Philadelphia schools and 
 
 - Skills: R, Shiny, data visualization, UI/UX.
 
-### SQL Data Project
+### 3. SQL Data Project
 [Publication](https://github.com/naokoi0408/SQL/blob/main/SQL/SQL.RStudio.pdf)
 
 The analysis compares median annual salaries across companies of different sizes, finding that companies with around 1000 employees pay between $250,000 and $260,000, while larger mega-companies offer slightly higher median salaries of $268,000 to $275,000. This highlights a trend of increasing salaries with company size.
@@ -41,18 +41,18 @@ The analysis compares median annual salaries across companies of different sizes
 
 - Skills: SQL, database management, data transformation.
 
-### Hypothesis Testing and Estimators
+### 4. Hypothesis Testing and Estimators
 
 
 
 - Skills: Statistics, R/Python, hypothesis testing.
 
-### Data Cleaning and Transformation
+### 5. Data Cleaning and Transformation
 
 
 - Skills: R, SQL, data wrangling, tidying datasets.
 
-### Simulate Rolling and Dice
+### 6. Simulate Rolling and Dice
 
 
 
