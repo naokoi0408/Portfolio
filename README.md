@@ -1,16 +1,16 @@
 # Junior Data Analyst
 
-### Education
-University of Pennsylvania
-Bachelor of Arts in Data Analytics & Social Sciences
-August 2021 – August 2024
+#### Technical Skill: R, SQL, Java, Python
 
-College of Liberal & Professional Studies
-GPA: 3.98
+### Education
+- B.A.A.S, Data Analytics & Social Sciences | University of Pennsylvania (_August 2024)
+- A.S, Computer Science | Community College of Philadelphia (_May 2021)
 
 ### Experience
-Data Analyst and Programmer Intern @ Senior Grooming
+Data Analyst and Programmer Intern @ Senior Grooming (_August 2023_)
 
-Contributed to a team developing a reservation-based system to enhance customer service.
-
+- Analyzed demographic data with R to produce reports that supported strategic expansion.
+- Programmed Java for API integrations with SendGrid to manage transactional emails.
+- Developed custom email templates in SendGrid, improving user experience and ensuring brand consistency.
+  
 ### Project
