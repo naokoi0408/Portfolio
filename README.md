@@ -15,7 +15,7 @@ Data Analyst and Programmer Intern @ Senior Grooming (_August 2023_)
   
 ## Project
 ### Regression Analysis in Base R     
-[Publication]
+[Publication](https://github.com/naokoi0408/Final.Data310/blob/main/Regression%20Analysis%20/Regression_Analysis%20.pdf)
 
 Utilized regression analysis, multivariate regression, statistical, and probability analysis on 2020 US National Election Survey data to assess voter sentiment towards the Democratic Party. Applied sampling theory, cleaned data, and created concise visualizations to summarize findings.
 
