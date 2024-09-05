@@ -21,12 +21,36 @@ Utilized regression analysis, multivariate regression, statistical, and probabil
 
 ![Regression Analysis](/assets/Difference_in_Mean.png)
 
+- Skills: R, statistics, data visualization.
+
 ### R-Shiny
 [Publication](https://github.com/naokoi0408/School_Rank_App/blob/main/School_Rank_App/School_Rank_App_Description.pdf)
 
 Developed a Shiny application with Leaflet widgets for Philadelphia schools and LEA datasets, focusing on attendance-based rankings. Utilized text analysis and integrated SQL within R for advanced geospatial analysis.
 
-![R Shiny](/assets/Regression_Table.png)
+![R Shiny](/assets/Regression_Table.png
+
+- Skills: R, Shiny, data visualization, UI/UX.
+
+### SQL Data Project
+
+
+- Skills: SQL, database management, data transformation.
+
+### Hypothesis Testing and Estimators
+
+
+
+- Skills: Statistics, R/Python, hypothesis testing.
+
+### Data Cleaning and Transformation
+
+
+- Skills: R, SQL, data wrangling, tidying datasets.
+
+### Simulate Rolling and Dice
+
+
 
 
 
