@@ -34,7 +34,7 @@ Developed a Shiny application with Leaflet widgets for Philadelphia schools and 
 
 ### SQL Data Project
 [Publication](file:///Users/naoko/Dropbox/DATA4010/week7/Homework/SQL-hw-401.html)
-[Publication](https://github.com/naokoi0408/7.SQL.Data4010/tree/main/SQL)
+
 
 
 - Skills: SQL, database management, data transformation.
