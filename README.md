@@ -3,8 +3,8 @@
 #### Technical Skill: R, SQL, Java, Python
 
 ### Education
-- B.A.A.S, Data Analytics & Social Sciences | University of Pennsylvania (_August 2024)
-- A.S, Computer Science | Community College of Philadelphia (_May 2021)
+- B.A.A.S, University of Pennsylvania| Data Analytics & Social Sciences (_August 2024)
+- A.S, Community College of Philadelphia | Computer Science (_May 2021)
 
 ### Experience
 Data Analyst and Programmer Intern @ Senior Grooming (_August 2023_)
