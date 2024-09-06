@@ -1,6 +1,6 @@
 # Junior Data Analyst
 
-<img src="images/logo.png" alt="Logo">
+<img src="assets/my_profile.png" alt="Logo">
 
 #### Technical Skill: R, SQL, Java, Python
 
