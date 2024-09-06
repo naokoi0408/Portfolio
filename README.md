@@ -1,7 +1,4 @@
 # Junior Data Analyst
-<img src="./assets/my_profile.png" alt="lasagna">
-<img src="/assets/my_profile.png" alt="lasagna">
-<img src="assets/my_profile.png" alt="Logo">
 
 #### Technical Skill: R, SQL, Java, Python
 
