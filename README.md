@@ -12,6 +12,9 @@ Data Analyst and Programmer Intern @ Senior Grooming (_August 2023_)
 - Analyzed demographic data with R to produce reports that supported strategic expansion.
 - Programmed Java for API integrations with SendGrid to manage transactional emails.
 - Developed custom email templates in SendGrid, improving user experience and ensuring brand consistency.
+
+## Certifications
+Introduction to Database and SQL, Great Learning (_June 2024_)
   
 ## Project
 ### 1. Regression Analysis in Base R     
