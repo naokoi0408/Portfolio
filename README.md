@@ -14,7 +14,7 @@ Data Analyst and Programmer Intern @ Senior Grooming (_August 2023_)
 - Developed custom email templates in SendGrid, improving user experience and ensuring brand consistency.
 
 ## Certifications
-Introduction to Database and SQL, Great Learning (_June 2024_)
+- Introduction to Database and SQL, Great Learning (_June 2024_)
   
 ## Project
 ### 1. Regression Analysis in Base R     
