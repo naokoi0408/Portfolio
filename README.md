@@ -51,8 +51,12 @@ Hypothesis testing in these regressions evaluates whether the independent variab
 ![Hypothesis](assets/Hypothesis_Testing_N_Estimators.png)
 
 ### 5. Data Cleaning and Transformation
-[Publication]
+[Publication](https://github.com/naokoi0408/Cleaning_And_Transforming_Data/blob/main/Cleaning_And_Transforming_Data/Cleaning_Data.pdf)
+
+This project focuses on data cleaning and analysis using dplyr, including tasks like filtering non-cancelled flights, analyzing delay patterns, and identifying delay-prone carriers and destinations. A bonus task involves examining baseball batting averages while accounting for potential data biases.
 - Skills: R, SQL, data wrangling, tidying datasets.
+
+![Data_Cleaning_and_Transformation](assets/Data_Transformation.png)
 
 ### 6. Simulate Rolling and Dice
 [Publication]
