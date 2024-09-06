@@ -58,9 +58,5 @@ This project focuses on data cleaning and analysis using dplyr, including tasks 
 
 ![Data_Cleaning_and_Transformation](assets/Data_Transformation.png)
 
-### 6. Simulate Rolling and Dice
-[Publication]
-
-
 
 
