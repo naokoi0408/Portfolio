@@ -66,7 +66,7 @@ This project focuses on data cleaning and analysis using dplyr, including tasks 
 
 In this project, I conducted a series of statistical analyses and simulations using R. I calculated probabilities and confidence intervals for normal distributions, simulated dice rolls to explore probabilities related to Yahtzee, and analyzed coin flip data to estimate streak lengths. This work involved applying statistical techniques, such as normal CDFs and Monte Carlo simulations, to derive meaningful insights and visualize results through plots. The project demonstrates my proficiency in data analysis, statistical modeling, and simulation.
 
-![Data_Cleaning_and_Transformation]
+![Data_Cleaning_and_Transformation](https://github.com/naokoi0408/Portfolio/blob/main/assets/RandomVariables.png)
 
 
 
