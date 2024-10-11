@@ -49,7 +49,7 @@ The analysis compares median annual salaries across companies of different sizes
 [Publication](https://github.com/naokoi0408/HypothesisTesting/blob/main/Hypothesis_Testing/HypothesisTesting.pdf)
 
 Hypothesis testing in these regressions evaluates whether the independent variables (like education level or region) have a statistically significant impact on the dependent variables (like median income or commute behavior). It tests whether the observed relationships are due to chance, with the null hypothesis assuming no effect and the alternative suggesting a significant effect.
-- Skills: Statistics, R/Python, hypothesis testing.
+- Skills: Statistics, R, hypothesis testing.
 
 ![Hypothesis](assets/Hypothesis_Testing_N_Estimators.png)
 
