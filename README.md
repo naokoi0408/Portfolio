@@ -17,7 +17,7 @@ Data Analyst and Programmer Intern @ Senior Grooming (_August 2023_)
 - Introduction to Database and SQL, Great Learning (_June 2024_)
   
 ## Project
-### 1. Regression Analysis in Base R     
+### Regression Analysis in Base R     
 [Publication](https://github.com/naokoi0408/Final.Data310/blob/main/Regression%20Analysis%20/Regression_Analysis%20.pdf)
 
 Utilized regression analysis, multivariate regression, statistical, and probability analysis on 2020 US National Election Survey data to assess voter sentiment towards the Democratic Party. Applied sampling theory, cleaned data, and created concise visualizations to summarize findings.
@@ -25,9 +25,14 @@ Utilized regression analysis, multivariate regression, statistical, and probabil
 
 ![Regression Analysis](/assets/Difference_in_Mean.png)
 
+### Diabetes Research Analysis
+Publication
+Analyzed 20,000 rows of data to examine the correlation between clone size and mutation in healthy and diabetic samples. Used hypothesis testing to find significant results, revealing a 3.444-fold increase in mean clone size in diabetic individuals. Created bar graphs to assess V-gene usage consistency across six donors, highlighting higher values in diabetes. This research suggests potential factors for risk prediction and prevention in Type 1 diabetes.
+
+![Regression Analysis](/assets/Difference_in_Mean.png)
 
 
-### 2. R-Shiny
+### R-Shiny
 [Publication](https://github.com/naokoi0408/School_Rank_App/blob/main/School_Rank_App/School_Rank_App_Description.pdf)
 
 Developed a Shiny application with Leaflet widgets for Philadelphia schools and LEA datasets, focusing on attendance-based rankings. Utilized text analysis and integrated SQL within R for advanced geospatial analysis.
@@ -36,7 +41,7 @@ Developed a Shiny application with Leaflet widgets for Philadelphia schools and 
 ![R Shiny](/assets/Regression_Table.png)
 
 
-### 3. SQL Data Project
+### SQL Data Project
 [Publication](https://github.com/naokoi0408/SQL/blob/main/SQL/SQL.RStudio.pdf)
 
 The analysis compares median annual salaries across companies of different sizes, finding that companies with around 1000 employees pay between $250,000 and $260,000, while larger mega-companies offer slightly higher median salaries of $268,000 to $275,000. This highlights a trend of increasing salaries with company size.
@@ -45,7 +50,7 @@ The analysis compares median annual salaries across companies of different sizes
 ![SQL](/assets/SQL.png)
 
 
-### 4. Hypothesis Testing and Estimators
+### Hypothesis Testing and Estimators
 [Publication](https://github.com/naokoi0408/HypothesisTesting/blob/main/Hypothesis_Testing/HypothesisTesting.pdf)
 
 Hypothesis testing in these regressions evaluates whether the independent variables (like education level or region) have a statistically significant impact on the dependent variables (like median income or commute behavior). It tests whether the observed relationships are due to chance, with the null hypothesis assuming no effect and the alternative suggesting a significant effect.
@@ -53,7 +58,7 @@ Hypothesis testing in these regressions evaluates whether the independent variab
 
 ![Hypothesis](assets/Hypothesis_Testing_N_Estimators.png)
 
-### 5. Data Cleaning and Transformation
+### Data Cleaning and Transformation
 [Publication](https://github.com/naokoi0408/Cleaning_And_Transforming_Data/blob/main/Cleaning_And_Transforming_Data/Cleaning_Data.pdf)
 
 This project focuses on data cleaning and analysis using dplyr, including tasks like filtering non-cancelled flights, analyzing delay patterns, and identifying delay-prone carriers and destinations. A bonus task involves examining baseball batting averages while accounting for potential data biases.
