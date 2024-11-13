@@ -33,6 +33,7 @@ Analyzed 20,000 rows of data to examine the correlation between clone size and m
 - Skills: R, statistics, hypothesis testing, data visualization.
 
 ![Diabetes Research Analysis](https://github.com/naokoi0408/Portfolio/blob/main/assets/Diabetes%20Research%20Analysis.png)
+![Diabetes Research Analysis](/assets/Regression_Table.png)
 
 
 ### R-Shiny
