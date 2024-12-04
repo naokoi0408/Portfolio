@@ -1,4 +1,6 @@
 # Junior Data Analyst
+### Resume
+[Publication](https://github.com/naokoi0408/Final.Data310/blob/main/Regression%20Analysis%20/Regression_Analysis%20.pdf)
 
 #### Technical Skill: R, SQL, Java, Python
 
