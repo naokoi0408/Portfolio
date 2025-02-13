@@ -1,6 +1,6 @@
 # Junior Data Analyst
 [Resume](https://github.com/naokoi0408/Portfolio/blob/main/assets/Naoko%20Ishibashi%20Resume%20Data%20Analyst.pdf)
-#### Technical Skill: R, SQL, Java, Python
+#### Technical Skill: R, SQL, Java, Python, Tableau, Power BI 
 
 ## Education
 - B.A.A.S, University of Pennsylvania| Data Analytics & Social Sciences (_August 2024_)
