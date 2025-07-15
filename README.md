@@ -78,8 +78,8 @@ In this project, I conducted a series of statistical analyses and simulations us
 ![Data_Cleaning_and_Transformation](https://github.com/naokoi0408/Portfolio/blob/main/assets/RandomVariables.png)
 
 ### Automotive Complaint Analysis 
-[Publication](https://github.com/naokoi0408/Portfolio/blob/main/assets/Subaru%20Quality%20Insight%20Project%20report%20copy.pdf)
-[Publication](https://github.com/naokoi0408/Portfolio/blob/main/assets/Subaru%20Quality%20Insights%20Dashboard%20%202019%20Present%20%20Data%20Source%20NHTSA%20Customer%20Complaints%20copy%202.pdf)
+[Subaru Quality Insight Project report](https://github.com/naokoi0408/Portfolio/blob/main/assets/Subaru%20Quality%20Insight%20Project%20report%20copy.pdf)
+[Power BI dashboard](https://github.com/naokoi0408/Portfolio/blob/main/assets/Subaru%20Quality%20Insights%20Dashboard%20%202019%20Present%20%20Data%20Source%20NHTSA%20Customer%20Complaints%20copy%202.pdf)
 
 I built a 3-page Power BI dashboard to analyze over 3,500 vehicle complaints from 2019 to 2025. The goal was to spot trends, compare brands, and identify quality issues. Using Subaru as a case study, I found a complaint spike in 2024, especially in popular models like the Crosstrek and Forester. This project shows how data dashboards can help monitor product performance and support decision-making.
 - Skills: Power BI, DAX, data cleaning, KPI tracking, data storytelling
