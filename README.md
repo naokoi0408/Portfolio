@@ -87,6 +87,17 @@ I built a 3-page Power BI dashboard to analyze over 3,500 vehicle complaints fro
 ![Power BI - Subaru Quality Insights](https://github.com/naokoi0408/Portfolio/blob/main/assets/Power%20BI%20-%20Subaru%20Quality%20Insights.png)
 
 
+### GIS Analysis - Analyzing Age 65+ Population and Median Income
+[Publication](https://github.com/naokoi0408/Portfolio/blob/main/assets/SG%20Analyzing%20Age%2065%20pulus%20Population%20and%20Median%20Income%20copy.pdf)
+
+I analyzed senior population and income data across Philadelphia to identify ideal service areas for a grooming business. The report highlights key neighborhoods with high senior density and disposable income, using census data and geospatial visuals to support targeting strategy.
+- Skills: GIS in R, census analysis, demographic mapping, report writing
+
+![Power BI - Subaru Quality Insights](https://github.com/naokoi0408/Portfolio/blob/main/assets/%20Age%2065%2B%20Population.png)
+
+
+
+
 
 
 
