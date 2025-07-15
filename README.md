@@ -73,6 +73,7 @@ This project focuses on data cleaning and analysis using dplyr, including tasks 
 [Publication](https://github.com/naokoi0408/RandomVariables/blob/main/RandomVariables.file/RandomVariables..pdf)
 
 In this project, I conducted a series of statistical analyses and simulations using R. I calculated probabilities and confidence intervals for normal distributions, simulated dice rolls to explore probabilities related to Yahtzee, and analyzed coin flip data to estimate streak lengths. This work involved applying statistical techniques, such as normal CDFs and Monte Carlo simulations, to derive meaningful insights and visualize results through plots. The project demonstrates my proficiency in data analysis, statistical modeling, and simulation.
+- Skills: R, statistical modeling, probability simulation, Monte Carlo methods, data visualization
 
 ![Data_Cleaning_and_Transformation](https://github.com/naokoi0408/Portfolio/blob/main/assets/RandomVariables.png)
 
@@ -81,6 +82,7 @@ In this project, I conducted a series of statistical analyses and simulations us
 [Publication](https://github.com/naokoi0408/Portfolio/blob/main/assets/Subaru%20Quality%20Insights%20Dashboard%20%202019%20Present%20%20Data%20Source%20NHTSA%20Customer%20Complaints%20copy%202.pdf)
 
 I built a 3-page Power BI dashboard to analyze over 3,500 vehicle complaints from 2019 to 2025. The goal was to spot trends, compare brands, and identify quality issues. Using Subaru as a case study, I found a complaint spike in 2024, especially in popular models like the Crosstrek and Forester. This project shows how data dashboards can help monitor product performance and support decision-making.
+- Skills: Power BI, DAX, data cleaning, KPI tracking, data storytelling
 
 ![Power BI - Subaru Quality Insights](https://github.com/naokoi0408/Portfolio/blob/main/assets/Power%20BI%20-%20Subaru%20Quality%20Insights.png)
 
