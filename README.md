@@ -29,7 +29,7 @@ Utilized regression analysis, multivariate regression, statistical, and probabil
 ### Diabetes Research Analysis
 [Publication](https://github.com/naokoi0408/Portfolio/blob/main/assets/Data_Analysis_Project_Final.ver%20(1).pdf)
 
-![B-Cell Analysis Project Presentation](assets/B-Cell%20Analysis%20project%20presentation.pdf)
+[B-Cell Analysis Project Presentation](assets/B-Cell%20Analysis%20project%20presentation.pdf)
 
 
 Analyzed 20,000 rows of data to examine the correlation between clone size and mutation in healthy and diabetic samples. Performed hypothesis testing to find significant results, indicating a notable increase in mean clone size in diabetic individuals. Created bar graphs to assess V-gene usage consistency across six donors, highlighting higher values in diabetes. This research suggests potential factors for risk prediction and prevention in Type 1 diabetes.
