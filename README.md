@@ -33,6 +33,7 @@ Analyzed 20,000 rows of data to examine the correlation between clone size and m
 - Skills: R, statistics, hypothesis testing, data visualization.
 
 ![Diabetes Research Analysis](assets/Diabetes%20Research%20Analysis.png)
+![B-Cell Analysis Project Presentation](assets/B-Cell%20Analysis%20project%20presentation.pdf)
 
 
 ### R-Shiny
