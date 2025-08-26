@@ -1,0 +1,153 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red26\green106\blue21;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c10588\c47843\c10588;\cssrgb\c100000\c100000\c100000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww51000\viewh28800\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs32 \cf2 \cb3 \expnd0\expndtw0\kerning0
+/* EXERCISE 1\
+Please create a SAS program to calculate the mean value for body temperature parameters based on the excel file \'91EXERCISE1.XLS\'92.\
+The SAS program should be commented to describe what is done at each step and why.\
+*/\
+\
+/* 1. Import excel */\
+/* I refered this code. https://documentation.sas.com/doc/nl/pgmsascdc/v_015/lepg/p052e6o452alx4n13wjbw0vofuu7.htm*/\
+options validvarname=v7;\
+proc import \
+		datafile='/home/u64288494/sasuser.v94/EXERCISE1.xls' /* Import EXERCISE1.xls*/\
+		dbms=xls        							 		 /* xls is excel file type */\
+		out=ex1_raw    							     		 /* name of the dataset */\
+		replace;         							 		 /* Overwrite if dataset already exists */\
+run;\
+\
+/* 2. Clean the ex1_raw data and prepare the temperature data*/\
+data clean_ex1;   					    			 	    /* Create a new datset*/\
+	set ex1_raw;  \
+	\
+														    /* Covert TEMP_RES from text to numeric */			\
+	TEMP_RES1=input(TEMP_RES, best.);   			        /* Create a numeric type column*/\
+\
+	if missing(TEMP_RES1) then delete;  			        /* Remove a missing value that couldn't convert */\
+\
+															/* Convert all temperatures to Celsius */\
+	if TEMP_UNIT = 'C' then TEMP_UNIT1 = TEMP_RES1;\
+    else if TEMP_UNIT= 'F' then TEMP_UNIT1 = round((TEMP_RES1 - 32) * 5/9, 0.1);  /* Celsius = (F - 32) * 5/9, round to 1 decimal place */\
+\
+run;\
+\
+\
+/* 3. Calculate mean body temperature per subject */\
+proc means data=clean_ex1 mean;  \
+    class SUBJECT;         							 	    /* Group by subject */\
+    var TEMP_UNIT1;   							            /* Calculate mean of  converted temperature */\
+run;\
+\
+/* EXERCISE 2\
+Please create a different SAS program combining the records from LAB, RANDO and VISIT SAS datasets (a line is expected if a record is present in at least one of these datasets). The following variables are expected in the final output:\
+\uc0\u61607 	SUBJECT (subject identifier)\
+\uc0\u61607 	RANDO_DONE (randomization date)\
+\uc0\u61607 	VISITID (visit identifier)\
+\uc0\u61607 	VISIT_DT (visit date)\
+\uc0\u61607 	TIMEPOINT (laboratory sample timepoint)\
+\uc0\u61607 	LAB_DONE (laboratory sample status (done Y/N)\
+\uc0\u61607 	LAB_DTM (laboratory sample date and time)\
+\
+2 additional derived variables should be added in the final output, these variables should be completed as described below:\
+\uc0\u61607 	MISSLAB \'96 equals to\
+o	"No" if the date of visit and the date of laboratory sample are both completed\
+o	"Yes" if date of visit is completed and date of laboratory sample is missing\
+\uc0\u61607 	DIFDAYS - equals to the number of days between the visit date and the laboratory sample\
+The SAS program should be commented to describe what is done at each step and why.\
+*/\
+\
+\
+																/* Step 1 library for datasets */\
+libname ex2 "/home/u64288494/sasuser.v94/EXERCISE2";\
+\
+proc contents data=ex2.lab; run; 								/* Check dataset structure */\
+proc contents data=ex2.rando; run;\
+proc contents data=ex2.visit; run;\
+\
+																/* View datatables */\
+proc print data=ex2.lab; run; 									/*lab, rando, and visit datasets have a common variable called 'subject' */\
+proc print data=ex2.rando; run;\
+proc print data=ex2.visit; run;\
+\
+																/* Merge LAB, RANDO, and VISIT using FULL JOIN on 'subject'\
+																= keep all rows from all tables */\
+PROC SQL;\
+	CREATE TABLE merged AS \
+	SELECT \
+	l.subject, \
+	r.rando_done, \
+	v.visitid, \
+	v.visit_dt, \
+	l.timepoint, \
+	l.lab_done, \
+	l.lab_dtm \
+	\
+	FROM ex2.lab AS l 											/* Start with LAB dataset because it's likely the main clinical data */\
+		FULL JOIN ex2.rando AS r ON l.subject=r.subject 	\
+		FULL JOIN ex2.visit AS v ON l.subject=v.subject;\
+quit;\
+\
+\
+proc contents data=merged; run;  								/* Check the structure of the merged dataset */\
+proc print data=merged; run;    								/* View the rows in the merged dataset  */\
+\
+\
+																  \
+																/* 2. Clean the merged data and remove missing data */\
+data clean_merged;\
+	set merged;\
+	if missing(subject) then delete; 							/* Remove a missing subjects */\
+	if missing(visitid) then delete; 							/* Remove a missing visit id */\
+run;\
+\
+\
+proc print data=clean_merged; run;    							/* Double-check that rows with missing data were removed */\
+\
+\
+																/* MISSLAB = 'N' if both visit date and lab date exist\
+																             'Y' if visit date exists but lab date is missing */\
+data add_merged; \
+	set clean_merged;\
+	if not missing(visit_dt) and not missing(lab_dtm) then misslab = 'N';\
+	else if not missing(visit_dt) and missing(lab_dtm) the misslab = 'Y';\
+run;\
+\
+proc print data=add_merged; run;    							/* Double-check that MISSLAB was created correctly */\
+\
+	\
+	\
+proc contents data=clean_merged; run; 							/* Check: lab_dtm and visit_dt are character type */ \
+proc print data=clean_merged; run;    							/* visit_dt = '01-Jan-2019', lab_dtm = '02-JAN-2019T12:00' */\
+\
+																/* Plan:DIFDAYS = how many days from visit date to lab date\
+																   1. Convert lab_dtm and visit_dt from character to numeric date values\
+																   2. Change lab_dtm ('02-JAN-2019T12:00') to a standard date format ('01-Jan-2019')\
+																   3. Calculate difdays = lab_date - visit_date */\
+\
+data final_marged; \
+set add_merged;\
+\
+																/*  Convert lab_dtm (text) to numeric date-time */\
+																/*  https://documentation.sas.com/doc/en/leforinforref/3.2/p1hsn1ji141r4zn0z3xm2dthop6a.htm */\
+	lab_dtm_num=input(lab_dtm, anydtdtm.);\
+\
+	format lab_dtm_num datetime19.; 							/* anydtdtm handles both date and time */\
+\
+																/* show as date and time in readable form : 02JAN2019:12:00:00 */\
+																/*  Covert (visit_dt) character datetime to numeric datetime */\
+	visit_dt_num=input(visit_dt, anydtdte.);\
+\
+																/* anydtdte handles date only*/\
+																/* Extract date from datetime */\
+	lab_date=datepart(lab_dtm_num);\
+\
+	difdays=lab_date - visit_dt_num; 							/* Calculate days between lab date and visit date */\
+\
+	format visit_dt_num lab_date date9.; 						/* Show both dates in standard format (e.g., 02JAN2019) */\
+run;}
