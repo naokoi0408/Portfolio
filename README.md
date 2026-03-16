@@ -87,7 +87,7 @@ In this project, I conducted a series of statistical analyses and simulations us
 I built a 3-page Power BI dashboard to analyze over 3,500 vehicle complaints from 2019 to 2025. The goal was to spot trends, compare brands, and identify quality issues. Using Subaru as a case study, I found a complaint spike in 2024, especially in popular models like the Crosstrek and Forester. This project shows how data dashboards can help monitor product performance and support decision-making.
 - Skills: Power BI, DAX, data cleaning, KPI tracking, data storytelling
 
-![Power BI - Subaru Quality Insights](https://github.com/naokoi0408/Portfolio/blob/main/assets/Power%20BI%20-%20Subaru%20Quality%20Insights%202.png)
+![Power BI - Subaru Quality Insights](https://raw.githubusercontent.com/naokoi0408/Portfolio/main/assets/Power%20BI%20-%20Subaru%20Quality%20Insights%202.png)
 
 
 ### GIS Analysis - Analyzing Age 65+ Population and Median Income
@@ -96,15 +96,15 @@ I built a 3-page Power BI dashboard to analyze over 3,500 vehicle complaints fro
 I analyzed senior population and income data across Philadelphia to identify ideal service areas for a grooming business. The report highlights key neighborhoods with high senior density and disposable income, using census data and geospatial visuals to support targeting strategy.
 - Skills: GIS in R, census analysis, demographic mapping, report writing
 
-![Power BI - Subaru Quality Insights](https://github.com/naokoi0408/Portfolio/blob/main/assets/%20Age%2065%2B%20Population.png)
+![GIS Analysis](https://raw.githubusercontent.com/naokoi0408/Portfolio/main/assets/gis_analysis.png)
+
 
 ### Clinical Data Analysis in SAS
 
 Created SAS programs to manage and analyze clinical datasets. Tasks included importing and cleaning raw data, standardizing variables such as body temperature units, merging multiple clinical trial datasets (LAB, RANDO, VISIT), and deriving new variables to assess data quality and study timelines. The projects emphasized data accuracy, integration, and the application of statistical methods for meaningful insights.
 - Skills: SAS, Data Cleaning, Data Integration, Statistical Analysis
 
-![SAS - Clinical Trial Data Integration](https://github.com/naokoi0408/Portfolio/blob/main/assets/Clinical_Trial_Data_Integration.sas.rtf)
-
+![View SAS Program](link)
 
 
 
