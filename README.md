@@ -97,7 +97,7 @@ I built a 3-page Power BI dashboard to analyze over 3,500 vehicle complaints fro
 I analyzed senior population and income data across Philadelphia to identify ideal service areas for a grooming business. The report highlights key neighborhoods with high senior density and disposable income, using census data and geospatial visuals to support targeting strategy.
 - Skills: GIS in R, census analysis, demographic mapping, report writing
 
-![GIS Analysis](https://raw.githubusercontent.com/naokoi0408/Portfolio/main/assets/gis_analysis.png)
+![GIS Analysis](https://github.com/naokoi0408/Portfolio/blob/main/assets/%20Age%2065%2B%20Population.png)
 
 
 ### Clinical Data Analysis in SAS
