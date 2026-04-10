@@ -108,8 +108,8 @@ Created SAS programs to manage and analyze clinical datasets. Tasks included imp
 
 
 ### Excel Healthcare Data Cleaning Project
-[cleaned_healthcare_data.csv]
-[messy_healthcare_data.csv]
+[cleaned_healthcare_data.csv](https://github.com/naokoi0408/Portfolio/blob/main/assets/cleaned_healthcare_data.csv)
+[messy_healthcare_data.csv](https://github.com/naokoi0408/Portfolio/blob/main/assets/messy_healthcare_data.csv)
 
 Cleaned a real-world messy healthcare dataset from Kaggle using Excel. The project focused on improving data quality and preparing the dataset for analysis. The dataset was transformed into a clean, consistent format ready for analysis.
 
