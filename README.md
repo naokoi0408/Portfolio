@@ -107,6 +107,19 @@ Created SAS programs to manage and analyze clinical datasets. Tasks included imp
 - Skills: SAS, Data Cleaning, Data Integration, Statistical Analysis
 
 
+### Excel Healthcare Data Cleaning Project
+[cleaned_healthcare_data.csv]
+[messy_healthcare_data.csv]
+
+Cleaned a real-world messy healthcare dataset from Kaggle using Excel. The project focused on improving data quality and preparing the dataset for analysis. The dataset was transformed into a clean, consistent format ready for analysis.
+
+Cleaning Steps
+	•	Removed duplicates
+	•	Handled missing values
+	•	Standardized categorical values (Yes/No/Unknown)
+	•	Fixed data types and date formats
+  
+- Skills:  Excel, Data Cleaning, Data Validation, Data Preparation
 
 
 
