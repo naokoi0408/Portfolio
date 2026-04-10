@@ -1,0 +1,45 @@
+Patient_ID,Age,Gender,BloodPressure,Cholesterol,BMI,Smoker,Diagnosis,AdmissionDate
+P1001,65,Male,150,180,27.8,Unknown,No Condition,01/01/2023
+P1002,45,Male,120,220,22.5,No,Unknown,12/14/2023
+P1004,65,Male,120,300,40.1,Unknown,No Condition,07/10/2023
+P1005,35,Female,130,200,35.4,No,Heart Disease,11/08/2023
+P1010,55,Male,140,220,30.0,Yes,No Condition,06/22/2023
+P1011,45,Male,120,300,35.4,No,Unknown,06/09/2023
+P1013,65,Female,120,250,27.8,Unknown,Unknown,11/13/2023
+P1015,55,Male,140,250,30.0,No,Diabetes,05/29/2023
+P1019,55,Female,150,250,40.1,Yes,Unknown,09/09/2023
+P1021,25,Male,160,180,27.8,No,No Condition,06/13/2023
+P1022,55,Unknown,120,180,27.8,No,Diabetes,08/15/2023
+P1032,55,Unknown,140,300,22.5,Yes,No Condition,09/16/2023
+P1033,55,Male,140,220,40.1,Yes,Diabetes,05/24/2023
+P1037,45,Unknown,150,200,40.1,No,No Condition,09/29/2023
+P1038,55,Male,130,300,35.4,Unknown,Unknown,12/24/2023
+P1041,45,Male,140,250,35.4,No,Heart Disease,05/02/2023
+P1043,45,Female,120,300,30.0,Yes,Diabetes,06/13/2023
+P1044,65,Male,150,250,35.4,No,Diabetes,03/31/2023
+P1045,25,Male,140,300,40.1,Yes,Heart Disease,05/16/2023
+P1047,55,Female,160,250,35.4,No,Heart Disease,11/12/2023
+P1048,25,Female,140,220,27.8,Unknown,Diabetes,06/27/2023
+P1051,35,Female,140,250,22.5,No,Diabetes,12/23/2023
+P1052,35,Male,150,250,30.0,No,Heart Disease,02/10/2023
+P1054,35,Female,130,300,27.8,Yes,Heart Disease,07/11/2023
+P1056,35,Male,140,300,40.1,No,Diabetes,07/20/2023
+P1058,55,Unknown,150,220,40.1,No,Diabetes,08/08/2023
+P1060,55,Male,120,180,22.5,Yes,No Condition,02/15/2023
+P1061,65,Male,130,300,35.4,Unknown,Unknown,02/04/2023
+P1062,45,Female,120,300,40.1,No,Unknown,09/10/2023
+P1065,55,Female,120,300,27.8,Unknown,Heart Disease,07/16/2023
+P1066,35,Unknown,120,220,22.5,Yes,Unknown,10/30/2023
+P1067,55,Female,130,250,27.8,No,Diabetes,01/10/2023
+P1072,35,Unknown,130,180,40.1,Yes,Unknown,12/31/2023
+P1073,55,Unknown,120,220,22.5,Yes,Unknown,01/05/2023
+P1075,65,Male,150,180,40.1,No,Unknown,10/16/2023
+P1078,55,Unknown,120,200,30.0,No,Diabetes,08/12/2023
+P1085,55,Female,120,200,40.1,Yes,No Condition,08/05/2023
+P1088,65,Male,140,180,40.1,Unknown,No Condition,10/10/2023
+P1089,65,Unknown,150,180,22.5,Yes,Diabetes,06/26/2023
+P1093,25,Female,140,300,35.4,No,Heart Disease,11/07/2023
+P1094,55,Male,120,200,40.1,Unknown,Heart Disease,01/06/2023
+P1095,55,Male,150,200,35.4,Yes,Unknown,07/16/2023
+P1097,65,Female,150,200,27.8,No,Unknown,05/13/2023
+P1099,65,Unknown,140,300,35.4,No,No Condition,09/16/2023
