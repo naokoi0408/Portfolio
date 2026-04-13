@@ -17,7 +17,7 @@ Data Analyst and Programmer Intern @ Senior Grooming (_August 2023_)
 - Introduction to Database and SQL, Great Learning (_June 2024_)
   
 ## Project
-### Regression Analysis in Base R     
+## Regression Analysis in Base R     
 [Analysis Report](https://github.com/naokoi0408/Final.Data310/blob/main/Regression%20Analysis%20/Regression_Analysis%20.pdf)
 
 Utilized regression analysis, multivariate regression, statistical, and probability analysis on 2020 US National Election Survey data to assess voter sentiment towards the Democratic Party. Applied sampling theory, cleaned data, and created concise visualizations to summarize findings.
@@ -26,7 +26,7 @@ Utilized regression analysis, multivariate regression, statistical, and probabil
 ![Regression Analysis](/assets/Difference_in_Mean.png)
 
 
-### Diabetes Research Analysis
+## Diabetes Research Analysis
 [Research Report](https://github.com/naokoi0408/Portfolio/blob/main/assets/Data_Analysis_Project_Final.ver%20(1).pdf)
 
 [Project Presentation](assets/B-Cell%20Analysis%20project%20presentation.pdf)
@@ -38,7 +38,7 @@ Analyzed 20,000 rows of data to examine the correlation between clone size and m
 ![Diabetes Research Analysis](assets/Diabetes%20Research%20Analysis.png)
 
 
-### R-Shiny
+## R-Shiny
 [Publication](https://github.com/naokoi0408/School_Rank_App/blob/main/School_Rank_App/School_Rank_App_Description.pdf)
 
 Developed a Shiny application with Leaflet widgets for Philadelphia schools and LEA datasets, focusing on attendance-based rankings. Utilized text analysis and integrated SQL within R for advanced geospatial analysis.
@@ -47,7 +47,7 @@ Developed a Shiny application with Leaflet widgets for Philadelphia schools and 
 ![R Shiny](/assets/Regression_Table.png)
 
 
-### SQL Data Project
+## SQL Data Project
 [SQL Analysis Report](https://github.com/naokoi0408/SQL/blob/main/SQL/SQL.RStudio.pdf)
 
 The analysis compares median annual salaries across companies of different sizes, finding that companies with around 1000 employees pay between $250,000 and $260,000, while larger mega-companies offer slightly higher median salaries of $268,000 to $275,000. This highlights a trend of increasing salaries with company size.
@@ -56,7 +56,7 @@ The analysis compares median annual salaries across companies of different sizes
 ![SQL](/assets/SQL.png)
 
 
-### Hypothesis Testing and Estimators
+## Hypothesis Testing and Estimators
 [Statistical Analysis Report](https://github.com/naokoi0408/HypothesisTesting/blob/main/Hypothesis_Testing/HypothesisTesting.pdf)
 
 Hypothesis testing in these regressions evaluates whether the independent variables (like education level or region) have a statistically significant impact on the dependent variables (like median income or commute behavior). It tests whether the observed relationships are due to chance, with the null hypothesis assuming no effect and the alternative suggesting a significant effect.
@@ -64,7 +64,7 @@ Hypothesis testing in these regressions evaluates whether the independent variab
 
 ![Hypothesis](assets/Hypothesis_Testing_N_Estimators.png)
 
-### Data Cleaning and Transformation
+## Data Cleaning and Transformation
 [Data Cleaning Analysis](https://github.com/naokoi0408/Cleaning_And_Transforming_Data/blob/main/Cleaning_And_Transforming_Data/Cleaning_Data.pdf)
 
 This project focuses on data cleaning and analysis using dplyr, including tasks like filtering non-cancelled flights, analyzing delay patterns, and identifying delay-prone carriers and destinations. A bonus task involves examining baseball batting averages while accounting for potential data biases.
@@ -72,7 +72,7 @@ This project focuses on data cleaning and analysis using dplyr, including tasks 
 
 ![Data_Cleaning_and_Transformation](assets/Data_Transformation.png)
 
-### Random Variables
+## Random Variables
 [Simulation Analysis](https://github.com/naokoi0408/RandomVariables/blob/main/RandomVariables.file/RandomVariables..pdf)
 
 In this project, I conducted a series of statistical analyses and simulations using R. I calculated probabilities and confidence intervals for normal distributions, simulated dice rolls to explore probabilities related to Yahtzee, and analyzed coin flip data to estimate streak lengths. This work involved applying statistical techniques, such as normal CDFs and Monte Carlo simulations, to derive meaningful insights and visualize results through plots. The project demonstrates my proficiency in data analysis, statistical modeling, and simulation.
@@ -80,7 +80,7 @@ In this project, I conducted a series of statistical analyses and simulations us
 
 ![Data_Cleaning_and_Transformation](https://github.com/naokoi0408/Portfolio/blob/main/assets/RandomVariables.png)
 
-### Automotive Complaint Analysis 
+## Automotive Complaint Analysis 
 [Subaru Quality Report](https://github.com/naokoi0408/Portfolio/blob/main/assets/Subaru_Quality_Insight_Project.pdf)
 
 [Subaru Quality Dashboard](https://github.com/naokoi0408/Portfolio/blob/main/assets/Subaru_Quality_NHTSA_Analysis.pdf)
@@ -91,7 +91,7 @@ I built a 3-page Power BI dashboard to analyze over 3,500 vehicle complaints fro
 ![Power BI - Subaru Quality Insights](https://github.com/naokoi0408/Portfolio/blob/main/assets/Power%20BI%20-%20Subaru%20Quality%20Insights.png)
 
 
-### GIS Analysis - Analyzing Age 65+ Population and Median Income
+## GIS Analysis - Analyzing Age 65+ Population and Median Income
 [GIS Analysis Report](https://github.com/naokoi0408/Portfolio/blob/main/assets/GIS_Analysis_Senior_Area_Philadelphia.pdf)
 
 I analyzed senior population and income data across Philadelphia to identify ideal service areas for a grooming business. The report highlights key neighborhoods with high senior density and disposable income, using census data and geospatial visuals to support targeting strategy.
