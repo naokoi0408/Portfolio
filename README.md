@@ -122,5 +122,24 @@ Cleaning Steps
 - Skills:  Excel, Data Cleaning, Data Validation, Data Preparation
 
 
+## Hospital Data Cleaning in Python using Pandas
+[cleaned_hospital_data.xlsx](https://github.com/naokoi0408/Portfolio/blob/main/assets/cleaned_hospital_data.xlsx)<br>
+[messy_hospital_data.xlsx](https://github.com/naokoi0408/Portfolio/blob/main/assets/messy_hospital_data.xlsx)<br>
+[Hospital Data Cleaning in Pandas .pdf](https://github.com/naokoi0408/Portfolio/blob/main/assets/Hospital%20Data%20Cleaning%20in%20Pandas%20.pdf)
+
+Cleaned a messy healthcare dataset using pandas. Focused on improving data quality and preparing the data for analysis.
+
+### Cleaning Steps
+	•	Removed duplicates  
+	•	 Standardized patient names  
+	•	 Removed titles (Mr, Mrs, Ms)  
+ 	•	Split names into First, Middle, Last  
+ 	•	Validated data types and values  
+ 	•	Checked missing values  
+
+### Skills
+Python, pandas, Jupyter Notebook, Data Cleaning
+
+
 
 
