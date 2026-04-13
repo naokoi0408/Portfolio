@@ -100,14 +100,14 @@ I analyzed senior population and income data across Philadelphia to identify ide
 ![GIS Analysis](https://github.com/naokoi0408/Portfolio/blob/main/assets/%20Age%2065%2B%20Population.png)
 
 
-### Clinical Data Analysis in SAS
+## Clinical Data Analysis in SAS
 [View SAS Code](https://github.com/naokoi0408/Portfolio/blob/main/assets/Clinical_Trial_Data_Integration.sas.rtf)
 
 Created SAS programs to manage and analyze clinical datasets. Tasks included importing and cleaning raw data, standardizing variables such as body temperature units, merging multiple clinical trial datasets (LAB, RANDO, VISIT), and deriving new variables to assess data quality and study timelines. The projects emphasized data accuracy, integration, and the application of statistical methods for meaningful insights.
 - Skills: SAS, Data Cleaning, Data Integration, Statistical Analysis
 
 
-### Excel Healthcare Data Cleaning Project
+## Excel Healthcare Data Cleaning Project
 [cleaned_healthcare_data.csv](https://github.com/naokoi0408/Portfolio/blob/main/assets/cleaned_healthcare_data.csv)<br>
 [messy_healthcare_data.csv](https://github.com/naokoi0408/Portfolio/blob/main/assets/messy_healthcare_data.csv)
 
