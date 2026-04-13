@@ -113,7 +113,7 @@ Created SAS programs to manage and analyze clinical datasets. Tasks included imp
 
 Cleaned a real-world messy healthcare dataset from Kaggle using Excel. The project focused on improving data quality and preparing the dataset for analysis. The dataset was transformed into a clean, consistent format ready for analysis.
 
-Cleaning Steps
+### Cleaning Steps
 	•	Removed duplicates
 	•	Handled missing values
 	•	Standardized categorical values (Yes/No/Unknown)
@@ -131,8 +131,8 @@ Cleaned a messy healthcare dataset using pandas. Focused on improving data quali
 
 ### Cleaning Steps
 	•	Removed duplicates  
-	•	 Standardized patient names  
-	•	 Removed titles (Mr, Mrs, Ms)  
+	•	Standardized patient names  
+	•	Removed titles (Mr, Mrs, Ms)  
  	•	Split names into First, Middle, Last  
  	•	Validated data types and values  
  	•	Checked missing values  
