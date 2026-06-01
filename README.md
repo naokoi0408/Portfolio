@@ -13,7 +13,12 @@ Data Analyst and Programmer Support @ Senior Grooming (_August 2023 – Present_
 - Developed custom email templates in SendGrid, improving user experience and ensuring brand consistency.
 
 ## Certifications
-- Introduction to Database and SQL, Great Learning (_June 2024_)
+- Introduction to Database and SQL, Great Learning (_2024_)
+- Certificate in Data Analytics – University of Pennsylvania (_2024_)
+- Certificate in Professional Writing – University of Pennsylvania (_2024_)
+- Analytics on SAS, Great Learning (2025)
+- Data Visualization with Power BI, Great Learning (2025) 
+- Certifications: IBM Data Analyst Professional Certificate (Python), Coursera (2026) 
   
 ## Project
 ## Regression Analysis in Base R     
