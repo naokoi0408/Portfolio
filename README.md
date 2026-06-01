@@ -7,8 +7,7 @@
 - A.S, Community College of Philadelphia | Computer Science (_May 2021_)
 
 ## Experience
-Data Analyst and Programmer Intern @ Senior Grooming (_August 2023_)
-
+Data Analyst and Programmer Support @ Senior Grooming (_August 2023 – Present_)
 - Analyzed demographic data with R to produce reports that supported strategic expansion.
 - Programmed Java for API integrations with SendGrid to manage transactional emails.
 - Developed custom email templates in SendGrid, improving user experience and ensuring brand consistency.
