@@ -1,0 +1,217 @@
+---
+title: "SG Philly population age 65"
+author: "Naoko Ishibashi"
+date: "2025-02-06"
+output: html_document
+---
+
+```{r}
+library(maps)
+library(mapdata)
+library(tidycensus) # To access Census data
+library(sf)         # For spatial data
+library(tigris)     # For shapefiles
+library(ggplot2)    # For visualization
+library(dplyr)      # For data wrangling
+library(tidyverse)
+library(viridis)
+library(rsconnect)
+```
+
+
+```{r}
+
+census_api_key("eef9065461b49f7b29cb6e9455903e624410b03d", install = TRUE, overwrite = TRUE)
+
+# Load all variables from ACS 5-Year 2021 dataset
+variables <- load_variables(2021, "acs5", cache = TRUE)
+
+# Filter for the B01001 table (Sex by Age)
+age_variables <- variables[grep("B01001", variables$name), ]
+#View(age_variables)  # View the full list in a table format
+head(age_variables, 10)
+ 
+```
+
+
+
+```{r}
+
+# Load the necessary variables age over 65 Total
+philly_data <- get_acs(
+  geography = "tract",
+  variables = c(
+    age_M_65_66 = "B01001_020",  # Male, age 65 & 66
+    age_M_67_69 = "B01001_021",  # Male, age 67-69
+    age_M_70_74 = "B01001_022",  # Male, age 70-74
+    age_M_75_79 = "B01001_023",  # Male, age 75-79
+    age_M_80_84 = "B01001_024",  # Male, age 80-84
+    age_M_85_plus = "B01001_025", # Male, age 85+
+    
+    age_F_65_66 = "B01001_044",  # Female, age 65 & 66
+    age_F_67_69 = "B01001_045",  # Female, age 67-69
+    age_F_70_74 = "B01001_046",  # Female, age 70-74
+    age_F_75_79 = "B01001_047",  # Female, age 80-84
+    age_F_80_84 = "B01001_048",  # Female, age 80-84
+    age_F_85_plus = "B01001_049" # Female, age 85+
+    
+  ),
+  state = "PA",
+  county = "Philadelphia",
+  geometry = TRUE
+)
+
+# Summing age groups 65+
+philly_data_65_plus <- philly_data %>%
+  group_by(GEOID, NAME) %>%
+  summarise(age_65_plus = sum(estimate, na.rm = TRUE)) %>%
+  ungroup()
+
+# Plot the data
+ggplot(philly_data_65_plus) +
+  geom_sf(aes(fill = age_65_plus), color = NA) +
+  scale_fill_viridis_c(option = "plasma") +
+  theme_minimal() +
+  labs(
+    title = "Table1: Population Aged 65 and Older in Philadelphia",
+    fill = "Population 65+"
+  )
+
+ggsave("population_65_plus_map.png", width = 10, height = 8)
+
+```
+ The population distribution of seniors (65+) in Philadelphia varies significantly across neighborhoods. 
+  The areas with the highest concentrations of seniors are shown in yellow and orange on the map, 
+  indicating neighborhoods with larger senior populations. 
+  In contrast, areas shown in dark blue have lower senior populations.
+
+  Table 1 presents data from the 2019-2023 ACS, revealing that seniors are more likely to live in family-oriented neighborhoods, 
+  such as South Philly. Furthermore, the data highlights higher senior populations in the Northwest and Northeast regions, 
+  suggesting that seniors tend to prefer these areas.
+
+
+
+```{r}
+# Load the necessary variables age over 65 Male ####
+philly_data_m <- get_acs(
+  geography = "tract",
+  variables = c(
+    age_M_65_66 = "B01001_020",  # Male, age 65 & 66
+    age_M_67_69 = "B01001_021",  # Male, age 67-69
+    age_M_70_74 = "B01001_022",  # Male, age 70-74
+    age_M_75_79 = "B01001_023",  # Male, age 75-79
+    age_M_80_84 = "B01001_024",  # Male, age 80-84
+    age_M_85_plus = "B01001_025" # Male, age 85+ (no trailing comma)
+  ),
+  state = "PA",
+  county = "Philadelphia",
+  geometry = TRUE
+)
+
+# Summing age groups 65+
+philly_data_65_plus_m <- philly_data_m %>%
+  group_by(GEOID, NAME) %>%
+  summarise(age_65_plus = sum(estimate, na.rm = TRUE)) %>%
+  ungroup()
+
+# Plot the data
+ggplot(philly_data_65_plus_m) +
+  geom_sf(aes(fill = age_65_plus), color = NA) +
+  scale_fill_viridis_c(option = "plasma") +
+  theme_minimal() +
+  labs(
+    title = "Table 2: Male Population Aged 65 and Older in Philadelphia",
+    fill = "Population 65+"
+  )
+
+ggsave("population_65_plus_map.png", width = 10, height = 8)
+
+
+```
+
+Table 2 presents data from the 2019-2023 5-year ACS on the male population aged 65 and older in Philadelphia. Similar to Table 1, the data shows that most senior males live in areas with a strong family presence, such as Northwest and Northeast Philadelphia, as well as parts of South and West Philly. However, this map highlights higher concentrations of senior males in Overbrook, West Philly, and Bustleton, Northeast Philly, compared to the overall senior population. This suggests that senior males, in particular, tend to live in the northern parts of the city.
+
+
+```{r}
+philly_data_f <- get_acs(
+  geography = "tract",
+  variables = c(
+    age_F_65_66 = "B01001_044",  # Female, age 65 & 66
+    age_F_67_69 = "B01001_045",  # Female, age 67-69
+    age_F_70_74 = "B01001_046",  # Female, age 70-74
+    age_F_75_79 = "B01001_047",  # Female, age 75-79
+    age_F_80_84 = "B01001_048",  # Female, age 80-84
+    age_F_85_plus = "B01001_049" # Female, age 85+
+  ),
+  state = "PA",
+  county = "Philadelphia",
+  geometry = TRUE
+)
+
+# Summing age groups 65+
+philly_data_65_plus_f <- philly_data_f %>%
+  group_by(GEOID, NAME) %>%
+  summarise(age_65_plus = sum(estimate, na.rm = TRUE)) %>%
+  ungroup()
+
+# Plot the data
+ggplot(philly_data_65_plus_f) +
+  geom_sf(aes(fill = age_65_plus), color = NA) +
+  scale_fill_viridis_c(option = "plasma") +
+  theme_minimal() +
+  labs(
+    title = "Table 3: Female Population Aged 65 and Older in Philadelphia",
+    fill = "Population 65+"
+  )
+
+ggsave("table_3_population_65_plus_map.png", width = 10, height = 8)
+
+
+
+
+
+```
+Table 3 presents data from the 2019-2023 5-year ACS on the female population aged 65 and older in Philadelphia. Similar to Tables 1 and 2, the data shows that most senior females live in areas with a strong family presence, such as Northwest and Northeast Philadelphia, with smaller populations in South and West Philly. However, this map highlights higher concentrations of senior females in Roxborough and Bustleton, Northeast Philly, compared to the overall senior population. Additionally, the female senior population is notably larger than the male population, with 900 senior females compared to 750 senior males. This suggests that senior females also tend to live in the northern parts of Philadelphia.
+
+```{r}
+# Fetch data for Median Household Income ---------------------------------------
+income_data <- get_acs(
+  geography = "tract",
+  variables = c(median_income = "B19013_001"),
+  state = "PA",
+  county = "Philadelphia",
+  geometry = TRUE
+)
+
+head(income_data)
+
+ggplot(income_data) +
+  geom_sf(aes(fill = estimate), color = NA) +
+  # scale_fill_viridis_c(option = "cividis") +
+  scale_fill_viridis_c(option = "cividis") +
+  theme_minimal() +
+  labs(
+    title = "Table 4: Median Household Income in Philadelphia",
+    fill = "Median Income ($)"
+  )
+
+ggsave("median_household_income_map.png", width = 10, height = 8)
+
+#-------------------------------------------------------------------------------
+
+```
+There are notable differences in median household income across Philadelphia neighborhoods. The areas with the highest income concentrations are shown in yellow and dark navy blue on the map, indicating clusters with higher median incomes. In contrast, areas with much lower median incomes are shown in gray.
+
+Table 4 presents data from the 2019-2023 5-year ACS on median household income in Philadelphia. The data shows that higher median household incomes are found in areas such as Chestnut Hill, parts of East Falls, Center City, Old City, and Society Hill, with the highest concentrations in Center City and Chestnut Hill.
+
+In conclusion, to target seniors for a grooming business in Philadelphia:
+- Key Senior Population Areas: The highest concentrations of seniors,65+ are in South Philly, Northwest, and Northeast Philadelphia. Specifically, Overbrook in West Philly and Bustleton in Northeast have higher concentrations of senior males, while Roxborough and Bustleton in Northeast have more senior females.
+- Income Considerations: Higher-income areas like Chestnut Hill, East Falls, Center City, Old City, and Society Hill are ideal for targeting seniors with more disposable income for grooming services.
+
+Key Focus Areas
+- Northeast and Northwest Philadelphia: These areas have the highest concentrations of seniors, especially in neighborhoods like Bustleton, Roxborough, Overbrook, and parts of South Philly.
+- Affluent Areas, Areas like Chestnut Hill, Society Hill, and others are ideal for targeting seniors with higher incomes who are more likely to invest in grooming services.
+- Bustleton, A significant area for both male and female seniors in Northeast Philly, making it an important neighborhood to consider.
+
+
+
