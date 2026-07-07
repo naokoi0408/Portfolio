@@ -97,6 +97,7 @@ I built a 3-page Power BI dashboard to analyze over 3,500 vehicle complaints fro
 
 ## GIS Analysis - Analyzing Age 65+ Population and Median Income
 [GIS Analysis Report](https://github.com/naokoi0408/Portfolio/blob/main/assets/GIS_Analysis_Senior_Area_Philadelphia.pdf)
+[Philly 65+ GIS Analysis in R](https://github.com/naokoi0408/Portfolio/blob/main/assets/Philly_65_Plus.Rmd)
 
 I analyzed senior population and income data across Philadelphia to identify ideal service areas for a grooming business. The report highlights key neighborhoods with high senior density and disposable income, using census data and geospatial visuals to support targeting strategy.
 - Skills: GIS in R, census analysis, demographic mapping, report writing
